@@ -286,6 +286,13 @@ configMapConfigs: []
 #  - fluentd-prometheus-conf
 #  - fluentd-systemd-conf
 
+## Add network policies to fluentd pods
+
+networkPolicy:
+  enabled: false
+# ingress:
+#   from: []
+
 ## Fluentd configurations:
 ##
 fileConfigs:
